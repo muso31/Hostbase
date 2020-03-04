@@ -28,8 +28,10 @@ namespace Hostbase.Plugin
         {
             var plugin = pluginManager.Resolve(this);
 
-            _logger.LogInformation($"The SettingOne value is: {_configuration.GetSection("Sitecore:Hostbase.Plugin:SettingOne").Value}");
+            _logger.LogInformation($"The SettingOne value is: { _configuration.GetSection("Sitecore:Hostbase.Plugin:SettingOne").Value }");
             _logger.LogInformation($"Plugin is running, name is: { plugin.PluginName }");
+            _logger.LogInformation($"Application name is: { hostingEnvironment.ApplicationName }");
+            
         }
     }
 }

@@ -18,7 +18,8 @@ When you open the identity server logs you should see two messages:
 
 >The SettingOne value is: 1  
 >Plugin is running, name is: Hostbase.Plugin
+>Application name is: Sitecore.IdentityServer.Host
 
-The app simply reads settings from [settings.xml](https://github.com/muso31/Hostbase/tree/master/Hostbase.Plugin/sitecore/Hostbase.Plugin/config/settings.xml) and outputs the value. 
+The app simply reads settings from [settings.xml](https://github.com/muso31/Hostbase/tree/master/Hostbase.Plugin/sitecore/Hostbase.Plugin/config/settings.xml) and outputs the value. It also outputs the Plugin name and Host application name. 
 
-You can see these values being logged in [ConfigureSitecore.cs](https://github.com/muso31/Hostbase/tree/master/Hostbase.Plugin/ConfigureSitecore.cs). Host Base will be expanded but this should be enough to get you up and running.
+You can see these values being logged in [ConfigureSitecore.cs](https://github.com/muso31/Hostbase/tree/master/Hostbase.Plugin/ConfigureSitecore.cs). Host Base will be expanded but this basic example is enough to get you up and running.
