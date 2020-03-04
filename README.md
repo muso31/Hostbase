@@ -6,7 +6,7 @@ A Sitecore Host example solution which can be used for as a starting point for [
 2. Copy your Sitecore license to **YOUR_WEB_ROOT**\\**PREFIX**.identityserver.dev.local\sitecoreruntime
 3. Clone project and build
 4. Project will compile to _**YOUR_CLONE_LOCATION**\Hostbase.Plugin\bin\Debug\Hostbase.Plugin.1.0.0.nupkg_
-5. Rename _Hostbase.Plugin.1.0.0.nupkg_ to _Hostbase.Plugin.1.0.0.zip_ and copy following files to the _**YOUR_WEB_ROOT**\\**PREFIX**.identityserver.dev.local_ folder from step 1
+5. Unpack _Hostbase.Plugin.1.0.0.nupkg_ and copy following files to the _**YOUR_WEB_ROOT**\\**PREFIX**.identityserver.dev.local_ folder from step 1
     - copy _lib\netstandard2.0\Hostbase.Plugin.dll_ to **YOUR_WEB_ROOT**\\**PREFIX**.identityserver.dev.local\sitecoreruntime\production
     - copy _content\sitecore\Hostbase.Plugin\config\settings.xml_ to **YOUR_WEB_ROOT**\\**PREFIX**.identityserver.dev.local\sitecoreruntime\production\sitecore\Hostbase.Plugin\config
     - copy _sitecore\Sitecore.Plugin.manifest_ to **YOUR_WEB_ROOT**\\**PREFIX**.identityserver.dev.local\sitecoreruntime\production\sitecore\Hostbase.Plugin
