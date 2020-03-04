@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ <Sdk Name="Sitecore.Framework.Runtime.Build" Version="1.1.0" />
+  <PropertyGroup>
+	<TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<SitecorePluginName>Hostbase.Plugin</SitecorePluginName>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="sitecore\Hostbase.Plugin\config\settings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore\Hostbase.Plugin\config\settings.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Sitecore.Framework.Runtime.Abstractions" Version="4.1.0" />
+    <PackageReference Include="Sitecore.Framework.Runtime.Commands" Version="4.1.0" />	
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+</Project>

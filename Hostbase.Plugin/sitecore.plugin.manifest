@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SitecorePlugin PluginName="Hostbase.Plugin" AssemblyName="Hostbase.Plugin" Version="1.0.0">
+  <Dependencies>
+  </Dependencies>
+  <Tags>
+    <Sitecore>Sitecore</Sitecore>
+  </Tags>
+</SitecorePlugin>

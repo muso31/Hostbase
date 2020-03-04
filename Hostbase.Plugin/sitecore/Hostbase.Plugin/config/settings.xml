@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Sitecore>
+    <Hostbase.Plugin>
+      <SettingOne>1</SettingOne>
+      <SettingTwo>2</SettingTwo>
+    </Hostbase.Plugin>
+  </Sitecore>
+</Settings>

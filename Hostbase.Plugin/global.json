@@ -1,0 +1,5 @@
+{
+  "msbuild-sdks": {
+    "Sitecore.Framework.Runtime.Build": "1.1.0"
+  }
+}
