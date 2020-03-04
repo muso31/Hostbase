@@ -1,4 +1,4 @@
-## Host Base
+<img src="https://nshackblog.files.wordpress.com/2020/03/hostbase.png" height="154px" width="200px" /><br />
 A Sitecore Host example solution which can be used for as a starting point for [Sitecore Host](https://doc.sitecore.com/developers/92/sitecore-experience-manager/en/sitecore-host.html) applications.
 
 ## Setup Instructions
