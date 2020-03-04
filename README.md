@@ -1,5 +1,5 @@
 <img src="https://nshackblog.files.wordpress.com/2020/03/hostbase.png" height="154px" width="200px" /><br />
-A Sitecore Host example solution which can be used for as a starting point for [Sitecore Host](https://doc.sitecore.com/developers/92/sitecore-experience-manager/en/sitecore-host.html) applications.
+A Sitecore Host example solution which can be used as a starting point for [Sitecore Host](https://doc.sitecore.com/developers/92/sitecore-experience-manager/en/sitecore-host.html) applications.
 
 ## Setup Instructions
 1. Install [Sitecore Experience Platform 9.3 Initial Release](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/93/Sitecore_Experience_Platform_93_Initial_Release.aspx)
